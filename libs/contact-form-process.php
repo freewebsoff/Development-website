@@ -1,6 +1,6 @@
 <?php
 
-$errorMSG = "";
+$errorMSG = "Erreur";
 
 $name = $_POST["name"];
 $email = $_POST["email"];
