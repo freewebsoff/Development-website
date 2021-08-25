@@ -15,6 +15,22 @@
     <!--build:css-->
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- endbuild -->
+
+    <!--Arc.io-->
+    <script async src="https://arc.io/widget.min.js#2KZJhNb6"></script>
+
+    <!--Tawk.to-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/6124ff5ad6e7610a49b1c24b/1fds8auu1';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
 </head>
 
 <body>
