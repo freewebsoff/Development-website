@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <base href="../../">
 
     <!--favicon icon-->
     <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
@@ -41,7 +42,10 @@
     </script>
 </head>
 
-<body>
+<body style="visibility: hidden !important;">
+    <!--Stop Adblock start-->
+    <div id="babasbmsgx" style="visibility: visible !important;"><h1>ERREUR</h1><p>S'il vous plaît désactiver votre bloqueur de pubs ou de ressources pour voir cette page.</p></div>
+    <!--Stop Adblock end-->
 
     <!--preloader start-->
     <div id="preloader">
@@ -62,7 +66,7 @@
                 <div class="col-12 col-md-8 col-lg-6">
                     <div class="login-signup-wrap p-5 gray-light-bg rounded shadow">
                         <div class="login-signup-header text-center">
-                            <a href="index.html"><img src="assets/img/logo-color.webp" class="img-fluid mb-3" alt="Logo"></a>
+                            <a href="fr/accueil"><img src="assets/img/logo-color.webp" class="img-fluid mb-3" alt="Logo"></a>
                             <h4 class="mb-5">Inscription à CPanel</h4>
                         </div>
                         <form class="login-signup-form" id="updatedetails" name="updatedetails" method="POST" action="//ifastnet.com/register2.php">
@@ -115,7 +119,7 @@
                             <div class="my-4">
                                 <div class="custom-control custom-checkbox mb-3">
                                     <input type="checkbox" class="custom-control-input" id="check-terms" required="true">
-                                    <label class="custom-control-label small-text" for="check-terms">J'accepte les <a href="#">termes &amp; les conditions</a></label>
+                                    <label class="custom-control-label small-text" for="check-terms">J'accepte les <a href="fr/termes-&-conditions" target="_blank">termes &amp; les conditions</a></label>
                                 </div>
                             </div>
 
@@ -126,25 +130,22 @@
                         </form>
                         <div class="other-login-signup my-3">
                             <div class="or-login-signup text-center">
-                                <strong>Ou se connecter à</strong>
+                                <strong>Ou s'inscrire à</strong>
                             </div>
                         </div>
                         <ul class="list-inline social-login-signup text-center">
                             <li class="list-inline-item my-1">
-                                <a href="https://dash.lotuspanel.ml" class="btn btn-twitter"><i class="fas fa-tachometer-alt"></i> LotusPanel</a>
-                            </li>
-                            <li class="list-inline-item my-1">
                                 <a href="https://forum.freewebs.ml" class="btn btn-twitter"><i class="fas fa-comments"></i> Forum</a>
                             </li>
                         </ul>
-                        <p class="text-center mb-0">Vous avez déjà un compte ? <a href="connexion.html">Se connecter</a></p>
+                        <p class="text-center mb-0">Vous avez déjà un compte ? <a href="fr/espace-client/connexion">Se connecter</a></p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6">
                     <div class="copyright-wrap small-text text-center mt-5 text-white">
-                        <p class="mb-0">&copy; FreeWebs, tous droits réservés</p>
+                        <p class="mb-0">&copy; <script>document.write(new Date().getFullYear());</script>, FreeWebs, tous droits réservés</p>
                     </div>
                 </div>
             </div>
@@ -169,6 +170,7 @@
     <script src="assets/js/vendors/validator.min.js"></script>
     <script src="assets/js/vendors/hs.megamenu.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/antiadblock.js"></script>
     <!--endbuild-->
 </body>
 

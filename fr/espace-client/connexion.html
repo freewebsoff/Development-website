@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <base href="../../">
 
     <!--favicon icon-->
     <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
@@ -33,7 +34,10 @@
     </script>
 </head>
 
-<body>
+<body style="visibility: hidden !important;">
+    <!--Stop Adblock start-->
+    <div id="babasbmsgx" style="visibility: visible !important;"><h1>ERREUR</h1><p>S'il vous plaît désactiver votre bloqueur de pubs ou de ressources pour voir cette page.</p></div>
+    <!--Stop Adblock end-->
 
     <!--preloader start-->
     <div id="preloader">
@@ -54,7 +58,7 @@
                 <div class="col-12 col-md-8 col-lg-6">
                     <div class="login-signup-wrap p-5 gray-light-bg rounded shadow">
                         <div class="login-signup-header text-center">
-                            <a href="index.html"><img src="assets/img/logo-color.webp" class="img-fluid mb-3" alt="Logo"></a>
+                            <a href="fr/accueil"><img src="assets/img/logo-color.webp" class="img-fluid mb-3" alt="Logo"></a>
                             <h4 class="mb-5">Connexion à votre compte CPanel</h4>
                         </div>
                         <form class="login-signup-form" action="https://cpanel.freewebs.ml/login.php" method="post" name="login">
@@ -87,6 +91,9 @@
                                 </div>
                             </div>
 
+
+                            <p class="text-center mb-0">Mot de pass oublié? <a href="fr/espace-client/mot-de-passe-oublie">Changer de mot de passe</a></p>
+
                             <!-- Submit -->
                             <button type="submit" name="Submit" class="btn btn-block btn-brand-02 border-radius mt-4 mb-3" value="Login">
                                 Se connecter
@@ -99,20 +106,20 @@
                         </div>
                         <ul class="list-inline social-login-signup text-center">
                             <li class="list-inline-item my-1">
-                                <a href="https://dash.lotuspanel.ml" class="btn btn-twitter"><i class="fas fa-tachometer-alt"></i> LotusPanel</a>
+                                <a data-toggle="tooltip" data-placement="top" title="" data-original-title="Uniquement pour les membres du staff de FreeWebs."href="https://panel.myownfreehost.net" class="btn btn-twitter text-under-line"><i class="fas fa-tachometer-alt"></i> Tableau de bord</a>
                             </li>
                             <li class="list-inline-item my-1">
                                 <a href="https://forum.freewebs.ml" class="btn btn-twitter"><i class="fas fa-comments"></i> Forum</a>
                             </li>
                         </ul>
-                        <p class="text-center mb-0">Vous n'avez pas de compte? <a href="inscription.html">S'inscrire</a></p>
+                        <p class="text-center mb-0">Vous n'avez pas de compte? <a href="fr/espace-client/inscription">S'inscrire</a></p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6">
                     <div class="copyright-wrap small-text text-center mt-5 text-white">
-                        <p class="mb-0">&copy; FreeWebs, tous droits réservés</p>
+                        <p class="mb-0">&copy; <script>document.write(new Date().getFullYear());</script>, FreeWebs, tous droits réservés</p>
                     </div>
                 </div>
             </div>
@@ -137,6 +144,7 @@
     <script src="assets/js/vendors/validator.min.js"></script>
     <script src="assets/js/vendors/hs.megamenu.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/antiadblock.js"></script>
     <!--endbuild-->
 </body>
 
