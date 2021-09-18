@@ -526,7 +526,7 @@
                     $extension = $pathinfo['extension'];
                     $filesize = filesize($v);
                     $filesize = round($filesize / 1024 / 1024, 2);
-                    echo '<div class="col-md-4 col-lg-3"><div class="single-partner-wrap card-bottom-line bg-white border rounded text-center p-4 mt-4"><div class="partner-logo mb-3"><img src="assets/img/files/'.$extension.'.png" alt="Fichier - FreeWebs" class="img-fluid" /></div><div class="partner-heading mb-2"><h5 class="mb-0">'.$name.'</h5><h6><strong>'.$filesize.' Mo</strong></h6></div><div class="partner-info"><p>Type de fichier: '.$extension.'</p><a href="https://links.freewebs.ml/serve/sitelinks/?id=700243&url=https://www.freewebs.ml/fr/telechargements?file='.$link.'" class="view-details-link" target="_blank"><span class="fas fa-download"></span> Télécharger</a></div></div></div>';
+                    echo '<div class="col-md-4 col-lg-3"><div class="single-partner-wrap card-bottom-line bg-white border rounded text-center p-4 mt-4"><div class="partner-logo mb-3"><img src="assets/img/files/'.$extension.'.svg" alt="Fichier - FreeWebs" class="img-fluid" /></div><div class="partner-heading mb-2"><h5 class="mb-0">'.$name.'</h5><h6><strong>'.$filesize.' Mo</strong></h6></div><div class="partner-info"><p>Type de fichier: '.$extension.'</p><a href="https://links.freewebs.ml/serve/sitelinks/?id=700243&url=https://www.freewebs.ml/fr/telechargements?file='.$link.'" class="view-details-link" target="_blank"><span class="fas fa-download"></span> Télécharger</a></div></div></div>';
                     }
                     ?>
                     
